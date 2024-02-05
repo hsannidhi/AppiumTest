@@ -32,13 +32,14 @@ public class BaseClass {
         caps.setCapability(MobileCapabilityType.APP, "C:\\Users\\bhatg\\OneDrive\\Documents\\ScoreAPK\\theScore.apk");
         caps.setCapability(AndroidMobileCapabilityType.APP_PACKAGE, "com.fivemobile.thescore");
         caps.setCapability(AndroidMobileCapabilityType.APP_ACTIVITY, "com.fivemobile.thescore.ui.MainActivity");
+        caps.setCapability(AndroidMobileCapabilityType.APP_WAIT_ACTIVITY, "com.fivemobile.thescore.ui.MainActivity");
         caps.setCapability(MobileCapabilityType.AUTOMATION_NAME, "UiAutomator2");
         caps.setCapability(MobileCapabilityType.NEW_COMMAND_TIMEOUT, 60);
         
         URL url = new URL("http://127.0.0.1:4723/wd/hub");
         
-        driver = new AppiumDriver<MobileElement>(url, caps);
-        //driver = new AndroidDriver<MobileElement>(url, caps);
+        //driver = new AppiumDriver<MobileElement>(url, caps);
+        driver = new AndroidDriver<MobileElement>(url, caps);
        
 		}catch(Exception exp){
 			System.out.println("Exception occured:"+exp.getCause());
