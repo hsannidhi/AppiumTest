@@ -5,8 +5,6 @@ import java.net.URL;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
-import org.testng.annotations.Test;
-
 import io.appium.java_client.AppiumDriver;
 import io.appium.java_client.MobileElement;
 import io.appium.java_client.android.AndroidDriver;
@@ -46,11 +44,6 @@ public class BaseClass {
 			System.out.println("Message is:"+exp.getMessage());
 			exp.printStackTrace();
 		}
-	}
-	
-	@Test
-	public void sampleTest() {
-		System.out.println("I am inside sample test");
 	}
 	
 	@AfterTest
