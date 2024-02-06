@@ -19,7 +19,7 @@ public class TestPlayer extends BaseClass{
 		Utils utils = new Utils();
 		welcomePage.testWelcomeScreen();
 		chooseFavoriteLeague.verifyFavoriteLeaguePage();
-		chooseFavoriteLeague.tapOnLeagueByName("NHL Hockey", 10);
+		chooseFavoriteLeague.tapOnLeagueByName("NHL Hockey");
 		utils.clickContinueOrDoneButton();
 		utils.allowLocationPermission();
 		utils.clickContinueOrDoneButton();

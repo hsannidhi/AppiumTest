@@ -19,7 +19,7 @@ public class ChooseFavoriteLeague extends Utils{
         System.out.println("verified favorite league page title");
     }
 	
-	public void tapOnLeagueByName(String leagueName, int durationInSeconds) {
+	public void tapOnLeagueByName(String leagueName) {
 		//This is a parameter driven method to which a league name can be passed.
 		
 	    try {
@@ -28,9 +28,9 @@ public class ChooseFavoriteLeague extends Utils{
 	        By leagueLocator = MobileBy.xpath(xpath);
 	        
 	        System.out.println("Scrolling until element is visible...");
-	        scrollUntilElementIsVisible(leagueLocator, durationInSeconds, leagueName);
+	        scrollUntilElementIsVisible(leagueLocator, 20, leagueName);
 	        
-	        MobileElement leagueElement = waitForElementToBeVisible(leagueLocator, durationInSeconds);
+	        MobileElement leagueElement = waitForElementToBeVisible(leagueLocator, 20);
 	        System.out.println("Element is now visible after scrolling.");
 	        
 	        leagueElement.click();
