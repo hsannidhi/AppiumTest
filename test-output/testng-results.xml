@@ -2,24 +2,24 @@
 <testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-02-05T17:39:55 EST" name="Default suite" finished-at="2024-02-05T17:40:27 EST" duration-ms="32396">
+  <suite started-at="2024-02-05T20:35:59 EST" name="Default suite" finished-at="2024-02-05T20:36:25 EST" duration-ms="26054">
     <groups>
     </groups>
-    <test started-at="2024-02-05T17:39:55 EST" name="Default test" finished-at="2024-02-05T17:40:27 EST" duration-ms="32396">
+    <test started-at="2024-02-05T20:35:59 EST" name="Default test" finished-at="2024-02-05T20:36:25 EST" duration-ms="26054">
       <class name="tests.TestPlayer">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.TestPlayer@6caf0677]" started-at="2024-02-05T17:39:55 EST" name="setUp" finished-at="2024-02-05T17:40:05 EST" duration-ms="10161" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.TestPlayer@6caf0677]" started-at="2024-02-05T20:35:59 EST" name="setUp" finished-at="2024-02-05T20:36:06 EST" duration-ms="7105" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="sampleTest()[pri:0, instance:tests.TestPlayer@6caf0677]" started-at="2024-02-05T17:40:05 EST" name="sampleTest" finished-at="2024-02-05T17:40:05 EST" duration-ms="7" status="PASS">
+        <test-method signature="sampleTest()[pri:0, instance:tests.TestPlayer@6caf0677]" started-at="2024-02-05T20:36:06 EST" name="sampleTest" finished-at="2024-02-05T20:36:06 EST" duration-ms="7" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- sampleTest -->
-        <test-method signature="testWelcomeScreen()[pri:0, instance:tests.TestPlayer@6caf0677]" started-at="2024-02-05T17:40:05 EST" name="testWelcomeScreen" finished-at="2024-02-05T17:40:27 EST" duration-ms="21688" status="PASS">
+        <test-method signature="testWelcomeScreen()[pri:0, instance:tests.TestPlayer@6caf0677]" started-at="2024-02-05T20:36:06 EST" name="testWelcomeScreen" finished-at="2024-02-05T20:36:24 EST" duration-ms="18253" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testWelcomeScreen -->
-        <test-method is-config="true" signature="tearDOwn()[pri:0, instance:tests.TestPlayer@6caf0677]" started-at="2024-02-05T17:40:27 EST" name="tearDOwn" finished-at="2024-02-05T17:40:27 EST" duration-ms="468" status="PASS">
+        <test-method is-config="true" signature="tearDOwn()[pri:0, instance:tests.TestPlayer@6caf0677]" started-at="2024-02-05T20:36:24 EST" name="tearDOwn" finished-at="2024-02-05T20:36:25 EST" duration-ms="637" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDOwn -->

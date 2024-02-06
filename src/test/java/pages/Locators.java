@@ -5,7 +5,7 @@ public class Locators {
 	
 	//Choose Your Favorite League page locators
     public static final String FAVORITE_PAGE_LABEL_ID = "com.fivemobile.thescore:id/title_onboarding";
-    public static final String LEAGUE_NAME_TEXT_VIEW_DYANMIC_XPATH = "//android.widget.TextView[@resource-id='com.fivemobile.thescore:id/txt_name' and @text='%s']";
+    public static final String LEAGUE_NAME_TEXT_VIEW_DYANMIC_XPATH = "//android.widget.TextView[@resource-id='%s' and @text='%s']";
     
     //Location Access - Tailored Content screen locators
     public static final String LOCATION_ACCESS_ALLOW_BUTTON_ID = "com.fivemobile.thescore:id/btn_allow";
