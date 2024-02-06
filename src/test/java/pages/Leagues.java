@@ -1,5 +1,7 @@
 package pages;
 
+//This page contains all interactions with Leagues tab. My test does not include testing leagues tab but i have written some methods here.
+
 import io.appium.java_client.MobileBy;
 import io.appium.java_client.MobileElement;
 

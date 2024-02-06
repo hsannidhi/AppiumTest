@@ -1,5 +1,7 @@
 package pages;
 
+//This is the base page that sets foundation for 
+
 import java.net.URL;
 
 import org.openqa.selenium.remote.DesiredCapabilities;
@@ -30,7 +32,6 @@ public class BaseClass {
         caps.setCapability(MobileCapabilityType.APP, "C:\\Users\\bhatg\\OneDrive\\Documents\\ScoreAPK\\theScore.apk");
         caps.setCapability(AndroidMobileCapabilityType.APP_PACKAGE, "com.fivemobile.thescore");
         caps.setCapability(AndroidMobileCapabilityType.APP_ACTIVITY, "com.fivemobile.thescore.ui.MainActivity");
-        caps.setCapability(AndroidMobileCapabilityType.APP_WAIT_ACTIVITY, "com.fivemobile.thescore.ui.MainActivity");
         caps.setCapability(MobileCapabilityType.AUTOMATION_NAME, "UiAutomator2");
         caps.setCapability(MobileCapabilityType.NEW_COMMAND_TIMEOUT, 60);
         

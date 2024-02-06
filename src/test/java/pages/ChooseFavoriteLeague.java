@@ -1,5 +1,7 @@
 package pages;
 
+//This page contains methods to choose a favorite page during ob-boarding
+
 import io.appium.java_client.MobileBy;
 import io.appium.java_client.MobileElement;
 
@@ -10,8 +12,8 @@ import org.testng.Assert;
 public class ChooseFavoriteLeague extends Utils{
 	
 	public void verifyFavoriteLeaguePage() {
-		
 		//This is the on-boarding screen - 'Choose your favorite leagues'
+		
         MobileElement favoritePageLabel = waitForElementToBeVisible(MobileBy.id(Locators.FAVORITE_PAGE_LABEL_ID), 20);
         Assert.assertTrue(favoritePageLabel.isDisplayed());
         System.out.println("verified favorite league page title");

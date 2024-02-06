@@ -1,5 +1,7 @@
 package pages;
 
+//This page verifies the first screen on installing the app.
+
 import org.testng.Assert;
 import io.appium.java_client.MobileBy;
 import io.appium.java_client.MobileElement;
@@ -19,6 +21,6 @@ public class WelcomeScreenActions extends Utils {
         
         getStartedButton.click();
         
-        System.out.println("successfully clicked start button");
+        System.out.println("Get Started button tapped");
     }
 }

@@ -14,12 +14,12 @@ public class TestPlayer extends BaseClass{
 	public void testWelcomeScreen() throws InterruptedException{
 		
 		WelcomeScreenActions welcomePage = new WelcomeScreenActions();
-		ChooseFavoriteLeague favoriteLeague = new ChooseFavoriteLeague();
+		ChooseFavoriteLeague chooseFavoriteLeague = new ChooseFavoriteLeague();
 		Standings standings = new Standings();
 		Utils utils = new Utils();
 		welcomePage.testWelcomeScreen();
-		favoriteLeague.verifyFavoriteLeaguePage();
-		favoriteLeague.tapOnLeagueByName("NHL Hockey", 10);
+		chooseFavoriteLeague.verifyFavoriteLeaguePage();
+		chooseFavoriteLeague.tapOnLeagueByName("NHL Hockey", 10);
 		utils.clickContinueOrDoneButton();
 		utils.allowLocationPermission();
 		utils.clickContinueOrDoneButton();
@@ -32,6 +32,5 @@ public class TestPlayer extends BaseClass{
 		standings.isTeamNamePresent("BOS Bruins");
 		utils.goBack();
 		standings.verifyFavoritesHomeScreen();
-		System.out.println("done");
 	}
 }

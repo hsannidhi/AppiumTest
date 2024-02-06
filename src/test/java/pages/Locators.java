@@ -1,5 +1,7 @@
 package pages;
 
+//This page contains locators for all elements to interact with. Android.Findby from page factory can be used alternatively.
+
 public class Locators {
 	
 	
