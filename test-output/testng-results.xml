@@ -1,29 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-02-05T17:39:55 EST" name="Default suite" finished-at="2024-02-05T17:40:27 EST" duration-ms="32396">
+  <suite started-at="2024-02-06T20:58:04 EST" name="Main Test" finished-at="2024-02-06T20:58:47 EST" duration-ms="43537">
     <groups>
     </groups>
-    <test started-at="2024-02-05T17:39:55 EST" name="Default test" finished-at="2024-02-05T17:40:27 EST" duration-ms="32396">
+    <test started-at="2024-02-06T20:58:04 EST" name="TestPlayer" finished-at="2024-02-06T20:58:47 EST" duration-ms="43537">
       <class name="tests.TestPlayer">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.TestPlayer@6caf0677]" started-at="2024-02-05T17:39:55 EST" name="setUp" finished-at="2024-02-05T17:40:05 EST" duration-ms="10161" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.TestPlayer@6fa51cd4]" started-at="2024-02-06T20:58:04 EST" name="setUp" finished-at="2024-02-06T20:58:11 EST" duration-ms="7443" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="sampleTest()[pri:0, instance:tests.TestPlayer@6caf0677]" started-at="2024-02-05T17:40:05 EST" name="sampleTest" finished-at="2024-02-05T17:40:05 EST" duration-ms="7" status="PASS">
+        <test-method signature="testTeamNameInStandingsTab(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.TestPlayer@6fa51cd4]" started-at="2024-02-06T20:58:11 EST" name="testTeamNameInStandingsTab" finished-at="2024-02-06T20:58:46 EST" duration-ms="35238" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[NHL Hockey]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[NHL]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[NHL]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[BOS Bruins]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- sampleTest -->
-        <test-method signature="testWelcomeScreen()[pri:0, instance:tests.TestPlayer@6caf0677]" started-at="2024-02-05T17:40:05 EST" name="testWelcomeScreen" finished-at="2024-02-05T17:40:27 EST" duration-ms="21688" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testWelcomeScreen -->
-        <test-method is-config="true" signature="tearDOwn()[pri:0, instance:tests.TestPlayer@6caf0677]" started-at="2024-02-05T17:40:27 EST" name="tearDOwn" finished-at="2024-02-05T17:40:27 EST" duration-ms="468" status="PASS">
+        </test-method> <!-- testTeamNameInStandingsTab -->
+        <test-method is-config="true" signature="tearDOwn()[pri:0, instance:tests.TestPlayer@6fa51cd4]" started-at="2024-02-06T20:58:46 EST" name="tearDOwn" finished-at="2024-02-06T20:58:47 EST" duration-ms="767" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDOwn -->
       </class> <!-- tests.TestPlayer -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- TestPlayer -->
+  </suite> <!-- Main Test -->
 </testng-results>
