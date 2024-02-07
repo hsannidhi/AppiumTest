@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Main Test">
+
+  <test name="TestPlayer">
+      <parameter name="tapFavoriteLeague" value="NHL Hockey"/>
+      <parameter name="favoriteLeagueInStandingsTab" value="NHL"/>
+      <parameter name="pageTitle" value="NHL"/>
+      <parameter name="findTeamName" value="BOS Bruins"/>
+      <classes>
+      <class name="tests.TestPlayer"/>
+      </classes>
+  </test> <!-- Test -->  
+</suite>
