@@ -20,7 +20,7 @@ public class Standings extends Utils {
 	
 	public String[] getTeamNames() {
 		//Get team names in Standings tab
-	    List<MobileElement> elements = findElements(Locators.STANDINGS_TAB_STATS_NAMES_ID, 10);
+	    List<MobileElement> elements = findElements(Locators.STANDINGS_TAB_STATS_NAMES_ID, 20);
 	    String[] teamNames = new String[elements.size()];
 	    
 	    for (int i = 0; i < elements.size(); i++) {

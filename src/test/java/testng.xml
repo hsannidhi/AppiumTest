@@ -8,7 +8,7 @@
       <parameter name="pageTitle" value="NHL"/>
       <parameter name="findTeamName" value="BOS Bruins"/>
       <classes>
-      <class name="tests.TestPlayer"/>
+        <class name="tests.TestPlayer"/>
       </classes>
   </test> <!-- Test -->  
 </suite>

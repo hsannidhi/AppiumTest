@@ -14,9 +14,7 @@ public class TestPlayer extends BaseClass{
 	WelcomeScreenActions welcomePage = new WelcomeScreenActions();
 	ChooseFavoriteLeague chooseFavoriteLeague = new ChooseFavoriteLeague();
 	Standings standings = new Standings();
-	Utils utils = new Utils();
-	
-	
+	Utils utils = new Utils();	
 	
 	@Parameters({"tapFavoriteLeague","favoriteLeagueInStandingsTab","pageTitle","findTeamName"})
 	@Test
@@ -36,6 +34,7 @@ public class TestPlayer extends BaseClass{
 		standings.tapFavoriteLeague(TapFavoriteLeagueValue);
 		standings.tapStandingstab();
 		utils.verifyPageTitle(pageTitleValue);
+		Thread.sleep(1000); //this is not needed for running in testng but need
 		standings.isTeamNamePresent(findTeamNameValue);
 		utils.goBack();
 		standings.verifyFavoritesHomeScreen();

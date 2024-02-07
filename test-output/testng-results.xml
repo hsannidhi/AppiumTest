@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-02-06T20:08:59 EST" name="Main Test" finished-at="2024-02-06T20:09:38 EST" duration-ms="39074">
+  <suite started-at="2024-02-06T20:58:04 EST" name="Main Test" finished-at="2024-02-06T20:58:47 EST" duration-ms="43537">
     <groups>
     </groups>
-    <test started-at="2024-02-06T20:08:59 EST" name="TestPlayer" finished-at="2024-02-06T20:09:38 EST" duration-ms="39074">
+    <test started-at="2024-02-06T20:58:04 EST" name="TestPlayer" finished-at="2024-02-06T20:58:47 EST" duration-ms="43537">
       <class name="tests.TestPlayer">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.TestPlayer@6fa51cd4]" started-at="2024-02-06T20:08:59 EST" name="setUp" finished-at="2024-02-06T20:09:06 EST" duration-ms="7137" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.TestPlayer@6fa51cd4]" started-at="2024-02-06T20:58:04 EST" name="setUp" finished-at="2024-02-06T20:58:11 EST" duration-ms="7443" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="testTeamNameInStandingsTab(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.TestPlayer@6fa51cd4]" started-at="2024-02-06T20:09:06 EST" name="testTeamNameInStandingsTab" finished-at="2024-02-06T20:09:37 EST" duration-ms="31245" status="PASS">
+        <test-method signature="testTeamNameInStandingsTab(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.TestPlayer@6fa51cd4]" started-at="2024-02-06T20:58:11 EST" name="testTeamNameInStandingsTab" finished-at="2024-02-06T20:58:46 EST" duration-ms="35238" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -37,7 +37,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testTeamNameInStandingsTab -->
-        <test-method is-config="true" signature="tearDOwn()[pri:0, instance:tests.TestPlayer@6fa51cd4]" started-at="2024-02-06T20:09:37 EST" name="tearDOwn" finished-at="2024-02-06T20:09:38 EST" duration-ms="618" status="PASS">
+        <test-method is-config="true" signature="tearDOwn()[pri:0, instance:tests.TestPlayer@6fa51cd4]" started-at="2024-02-06T20:58:46 EST" name="tearDOwn" finished-at="2024-02-06T20:58:47 EST" duration-ms="767" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDOwn -->
